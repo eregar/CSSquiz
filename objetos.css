@@ -1,0 +1,59 @@
+body{
+  background-color: lightblue;
+
+}
+p{
+  margin: 100;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  text-align: center;
+}
+img:hover{
+  height: 400px;
+  width: 400px;
+  text-align: left;
+  animation: fade;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  margin-right: :200px;
+  margin-left: 200px;
+}
+img{
+  height: 400px;
+  width: 400px;
+  text-align: left;
+  animation: fade;
+  margin-right:200px;
+  margin-left: 200px;
+
+}
+
+ul{
+  background-color: white;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+ul:hover{
+  background-color: white;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: red;
+}
+a{
+  font-weight: 900;
+  font-size: 20;
+  color: green;
+}
+#lateral{
+  width: 1000px;
+  height: 55px;
+  background-color: blue;
+  float: right;
+  border-bottom-left-radius: 50px
+}
+@keyframes fade {
+  from {opacity:1;}
+  to {opacity:0;}
+}
